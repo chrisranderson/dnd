@@ -12,8 +12,8 @@ def choose_from_list(l, n=1):
   else:
     return np.array(l)[randint(0, len(l), n)]
 
-def percentile():
-  draw = np.random.normal(50, 15)
+def percentile(count=1):
+  draw = np.random.normal(50, 15, count).astype(int)
   return draw
 
 def dc(bonus):

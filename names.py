@@ -104,7 +104,7 @@ def list_to_markov_chain(l, order=1):
 
   return sample_n
 
-ORDER = 3
+ORDER = 5
 
 chains = {
   'dwarf': list_to_markov_chain(dwarf_names, ORDER),
