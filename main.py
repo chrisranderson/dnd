@@ -67,6 +67,20 @@ def city():
   # shopping
   # transportation
 
+def strike():
+  move = choose_from_list(martial_moves)
+  move, locations = move.split(': ')
+  locations = locations.split(' ')
+
+  possible_parts = []
+
+  for category in locations:
+    possible_parts += body_parts[category]
+
+  print('({}) {} AT {}'.format(choose_from_list(forms), move, choose_from_list(possible_parts)))
+
+
+
 def d(count, die=None):
   if die is None:
     die = count
