@@ -1,0 +1,8 @@
+upstairs
+downstairs
+hallway
+loft
+storage
+outdoor privy
+stable / tie-off place
+window

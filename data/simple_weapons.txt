@@ -1,0 +1,13 @@
+club
+dagger
+handaxe
+javelin
+light hammer
+mace
+quarterstaff
+sickle
+spear
+light crossbow
+dart
+shortbow
+sling

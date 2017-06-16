@@ -1,0 +1,5 @@
+kitchen
+living quarters
+dining room
+bedroom
+laundry

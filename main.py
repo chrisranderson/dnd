@@ -3,7 +3,7 @@ import numpy as np
 
 from lists import *
 from my_rand import choose_from_list, randint, percentile, dc
-from names import generate_first_name, generate_surname
+from names import generate_first_name, generate_surname, city_name
 from util import repeat_format
 import names
 
@@ -38,7 +38,7 @@ def npc(race=None):
   print('  voice pitch:', percentile())
   print('  voice speed:', percentile())
   print('  vocabulary: ', percentile())
-  print('  quirk:      ', choose_from_list(['eyebrows', 'cheeks', 'um', 'ear', 'hair', 'jewelry', 'eye', 'nose', 'walk', 'overweight', 'underweight', 'fixation on topic', 'awkward', 'prefers a PC', 'too kind', 'impatient', 'angry']))
+  print('  quirk:      ', choose_from_list(quirks))
   print()
 
 def city():
@@ -79,6 +79,13 @@ def strike():
 
   print('({}) {} AT {}'.format(choose_from_list(forms), move, choose_from_list(possible_parts)))
 
+def tavern():
+  pieces = choose_from_list(building_parts + residential_parts + commercial_parts + tavern_parts, 10)
+  print('pieces', pieces)
+  print('busyness:', choose_from_list(busyness))
+
+def hook():
+  print(choose_from_list(plot_hooks))
 
 
 def d(count, die=None):

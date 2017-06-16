@@ -1,0 +1,10 @@
+spring
+groundwater
+hyporheic zone
+aquifer
+rain, hail, snow, fog
+river
+glacier
+plants
+atmospheric water generator
+desalinated seawater

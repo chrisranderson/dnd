@@ -1,0 +1,5 @@
+council-weak-sheriff: council does policy, sheriff handles day-to-day.
+council-strong-sheriff: council does policy, sheriff has stronger power.
+commission: members for guard, treasury, coronor, justice.
+town meeting: all interested citizens vote.
+representative town meeting: hierarchical town meeting.

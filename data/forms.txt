@@ -1,0 +1,27 @@
+aardvark
+bear
+cat
+crane
+dragon
+drunk
+eagle
+fire
+grasshopper
+half-moon
+hamster
+horse
+kitten
+leopard
+llama
+mole rat
+monkey
+piglet
+platypus
+puppy
+shark
+snake
+tiger
+warthog
+water
+whale
+wind

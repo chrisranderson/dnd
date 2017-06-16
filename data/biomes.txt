@@ -1,0 +1,94 @@
+floating
+suspended canyon
+suspended trees
+air
+archipelagoes
+artificial lake
+basin
+basins
+bay
+bayou
+bight
+bog
+boreal forest
+braided river
+canyon
+caves
+chaparral
+cliffs
+coastal
+coastal river
+coniferous forest
+coral reef
+craters
+deciduous forest
+desert: dunes
+desert: mountains
+drainage basins
+dunes
+escarpment
+estuarie
+evergreen rainforest
+fen
+flooded grassland
+flooded savanna
+floodplain
+forests
+glaciers
+grass valley
+grasslands
+headlands
+high plateau
+hills
+iceland
+inlet
+intertidal zone
+islands
+isthmuses
+karst
+lagoon
+low marsh
+mangrove swamp
+marsh
+moraines
+more
+mountain
+mountain forest
+mountain island
+mudflat
+natural lake
+open sea
+peatland
+peninsula
+rangelands
+regolith
+riparian
+river
+river delta
+salt marsh
+savanna
+sea floor
+semidesert
+shoal
+shrub swamp
+sinkhole
+spring
+strait
+subtropical dry forest
+subtropical moist forest
+taiga
+temperate grasslands
+tree city
+tropical desert
+tropical forest
+tropical savanna
+tundra
+underground
+upland river
+valley
+volcano
+watercourse
+waterfall
+waterway
+wetlands
+woodland

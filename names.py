@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
+import pickle
 
-from my_rand import choose_from_list, randint
+from my_rand import choose_from_list, randint, flip
 from util import repeat
 from lists import *
 
@@ -68,6 +69,8 @@ def list_to_markov_chain(l, order=1):
   markov_chain = {}
   node_map = {node: i for i, node in enumerate(characters)}
 
+  chain_name = 'data/chain-{}-{}.pkl'.format(l[0], order)
+
   for word in l:
     for i in range(len(word) - order):
       current_char = word[i:i+order]
@@ -78,6 +81,7 @@ def list_to_markov_chain(l, order=1):
       else:
         markov_chain[current_char] = [0]*len(characters)
         markov_chain[current_char][node_map[next_char]] += 1
+
 
   def sample_n(n):
     chars = []
@@ -104,22 +108,23 @@ def list_to_markov_chain(l, order=1):
 
   return sample_n
 
-ORDER = 2
+# ORDER = 5
+ORDER = randint(1, 6)
 
-chains = {
-  'dwarf': list_to_markov_chain(dwarf_names, ORDER),
-  'elf': list_to_markov_chain(elf_names, ORDER),
-  'halfling': list_to_markov_chain(halfling_names, ORDER),
-  'human': list_to_markov_chain(human_names, ORDER),
-  'goblin': list_to_markov_chain(goblin_names, ORDER),
-  'gnome': list_to_markov_chain(gnome_names, ORDER),
-  'tiefling': list_to_markov_chain(tiefling_names, ORDER)
-}
+chains = {key: list_to_markov_chain(value, ORDER) for key, value in all_names.items()}
 
+def city_name():
+  length = randint(3, 20)
+  return chains['city'](length)
+  
 
 def markov_name(type):
-  length = randint(3, 10)
-  return chains[type](length)
+  if flip():
+    return chains[type](length)
+  else:
+    return choose_from_list(all_names[type])
+    
+
 
 
 if __name__ == '__main__':

@@ -1,0 +1,38 @@
+bite: low mid high
+knee thrust: low mid high
+back elbow strike: high
+reverse spin heel kick: mid high
+mid kick (back step first): mid
+jabbing palm strike: mid high
+open palm strike: mid high
+front elbow strike: high
+uppercut: mid high
+back fist: high
+spear strike (eyes): high
+hammer fist (lateral or vertical): high
+chop: mid high
+wrist strike (moving up): high
+eagle hand (pinched, pressure points): mid high
+360 blade kick: mid high
+360 heel kick: mid high
+double jump kick (kick with one, plant, kick other): mid high
+turning blade kick: high
+skipping blade kick (kick jump with one, blow with other): high
+hammer heel kick (start high, heel down): high
+back kick (facing away, like stomping): low mid high
+double turning kick (jump spin hit both): mid high
+stomp on toes: low
+groin kick: low
+spear strike (throat): high
+thumb eye gouge: high
+headbutt (forehead to nose): high
+hairpull down: high
+earpull down: high
+ear bite: high
+fish hook (two fingers): high
+slap: high
+foot sweep: low
+flash kick (backflip, arch of foot): high
+flying kick (kick jump, arch going upwards): high
+back handspring: high
+aerial (gymnastics): high

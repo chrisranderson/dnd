@@ -1,0 +1,7 @@
+parish
+city
+colony
+village
+hamlet
+suburb
+town

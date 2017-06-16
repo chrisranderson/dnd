@@ -3,7 +3,7 @@ from scipy.stats import norm
 randint = np.random.randint
 draws = np.random.normal(50, 15, 100000)
 
-def flip(p):  
+def flip(p=.5):  
   return np.random.rand() < p
 
 def choose_from_list(l, n=1):
@@ -24,6 +24,7 @@ def dc(bonus):
   for potential_dc in range(1, 31):
     number_of_successes = len(rolls[rolls >= potential_dc])
     print('DC: {}, {}'.format(potential_dc, number_of_successes/count))
+
 
 if __name__ == '__main__':
   dc(4)
