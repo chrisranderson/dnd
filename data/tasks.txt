@@ -1,0 +1,46 @@
+agriculture
+animal
+architecture
+art
+character
+city
+country
+crime
+culture
+desert
+dress
+dungeon
+gang
+legendary creature
+good faction
+government
+group of people
+hero
+holiday
+lair
+language
+magic creature
+magic spell
+magical artifact
+major geological event
+major historical event
+map
+deity
+food or drink
+apocalypse
+minerals
+mountain
+ocean
+pirates
+taboo
+politics
+race
+religion
+sea
+secret society
+technology
+treasure
+village
+villain
+war
+water

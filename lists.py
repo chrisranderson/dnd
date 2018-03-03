@@ -16,7 +16,6 @@ letters = sorted(consonants + vowels)
 person_attributes = text_to_list('person_attributes.txt')
 
 surname_first_parts = text_to_list('surname_first_parts.txt')
-first_parts_to_check = text_to_list('first_parts_to_check.txt')
 
 surname_last_parts = text_to_list('surname_last_parts.txt')
 last_names_to_check = text_to_list('last_names_to_check.txt')
@@ -35,6 +34,7 @@ backgrounds = text_to_list('backgrounds.txt')
 
 quirks = text_to_list('quirks.txt')
 simple_weapons = text_to_list('simple_weapons.txt')
+magic_items = text_to_list('magic_items.txt')
 
 
 ################ city stuff ################
@@ -84,3 +84,5 @@ all_names = {
   'tiefling': tiefling_names,
 }
 
+tasks = text_to_list('tasks.txt')
+monsters = text_to_list('monsters.txt')

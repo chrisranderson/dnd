@@ -1,12 +1,12 @@
-stream
-large river
-waterfall
-normal monster lair
-unnatural monster lair
-grove
-more trees
-path
-hermit
-person cabin
 cave
+grove
+hermit
+large river
+more trees
+normal monster lair
+path
+person cabin
 ruins/temple
+stream
+unnatural monster lair
+waterfall

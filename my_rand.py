@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.stats import norm
+from lists import text_to_list
 randint = np.random.randint
 draws = np.random.normal(50, 15, 100000)
 
@@ -7,6 +8,9 @@ def flip(p=.5):
   return np.random.rand() < p
 
 def choose_from_list(l, n=1):
+  if isinstance(l, str):
+    l = text_to_list(l + '.txt')
+
   if n == 1:
     return np.array(l)[randint(0, len(l), n)][0]
   else:

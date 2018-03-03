@@ -42,8 +42,8 @@ def generate_first_name():
   return capitalize(''.join(name))
 
 def generate_surname():
-  adjective = capitalize(choose_from_list(surname_first_parts))
-  noun = choose_from_list(surname_last_parts)
+  adjective = capitalize(choose_from_list(surname_first_parts + surname_last_parts))
+  noun = choose_from_list(surname_first_parts + surname_last_parts)
 
   return adjective + noun
 
@@ -68,8 +68,6 @@ def list_to_markov_chain(l, order=1):
 
   markov_chain = {}
   node_map = {node: i for i, node in enumerate(characters)}
-
-  chain_name = 'data/chain-{}-{}.pkl'.format(l[0], order)
 
   for word in l:
     for i in range(len(word) - order):
@@ -103,7 +101,6 @@ def list_to_markov_chain(l, order=1):
         current_char = choose_from_list(node_values)
         first_char = current_char
 
-
     return ''.join([first_char] + chars)
 
   return sample_n
@@ -119,12 +116,13 @@ def city_name():
   
 
 def markov_name(type):
+  length = randint(3, 20)
+  
   if flip():
     return chains[type](length)
   else:
     return choose_from_list(all_names[type])
     
-
 
 
 if __name__ == '__main__':

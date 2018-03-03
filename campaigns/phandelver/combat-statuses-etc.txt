@@ -1,0 +1,25 @@
+Rod of absorption: 5 charges
+
+Skeletons
+Kriv: 7
+Lao Shui: 14
+Atala: 15
+
+s1 2 down
+s2 2
+s3 2
+
+
+Kriv:
+  - breath
+  - saving throw: 8 + con + prof
+Lao Shui
+- spells:
+  - can prepare wis + druid level
+  - can choose whatever she wants from the list
+- Wild shape can be a bonus action, challenge rating as high as 1
+  - bonus action
+
+Monk
+- deflect missiles - (minus 1d10 + dex mod + monk level)
+-

@@ -1,0 +1,13 @@
+greatclub
+glaive
+greataxe
+greatsword
+halberd
+maul
+pike
+quarterstaff
+spear
+battleaxe
+longsword
+trident
+warhammer

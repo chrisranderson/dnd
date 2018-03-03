@@ -1,6 +1,5 @@
 import numpy as np
 
-
 from lists import *
 from my_rand import choose_from_list, randint, percentile, dc
 from names import generate_first_name, generate_surname, city_name
@@ -67,6 +66,9 @@ def city():
   # shopping
   # transportation
 
+def dungeon():
+  build_dungeon()
+
 def strike():
   move = choose_from_list(martial_moves)
   move, locations = move.split(': ')
@@ -87,6 +89,8 @@ def tavern():
 def hook():
   print(choose_from_list(plot_hooks))
 
+def magic_item():
+  print(choose_from_list(magic_items))
 
 def d(count, die=None):
   if die is None:
@@ -94,8 +98,19 @@ def d(count, die=None):
     count = 1
 
   rolls = np.random.randint(1, die + 1, count)
-  print('\nroll: ', rolls)
-  print('total: ', np.sum(rolls))
+
+  if len(rolls) > 1:
+    print('rolls:', rolls)
+    
+  return np.sum(rolls)
+
+def worldbuilding_task():
+  print('task:', choose_from_list(tasks))
+
+def monster():
+  print('monster:', choose_from_list(monsters))
 
 if __name__ == '__main__':
-  pass
+  worldbuilding_task()
+  monster()
+  npc()
